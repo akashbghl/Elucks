@@ -95,6 +95,9 @@
     height: auto;
     padding: 20px;
   }
+  .w-h1-bottom{
+    font-size: 4em;
+  }
 }
 
 /* Tablets (769px - 1024px) */
