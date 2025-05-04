@@ -130,4 +130,8 @@
     width: 40%;
     height: auto;
   }
+  
+  .w-h1-bottom{
+    font-size: 4em;
+  }
 }
