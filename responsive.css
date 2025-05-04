@@ -1,0 +1,130 @@
+/* Mobile Devices (≤ 768px) */
+@media (max-width: 768px) {
+  .hero {
+    height: auto;
+    padding: 40px 10px;
+    text-align: center;
+  }
+
+  .hero .logo {
+    position: static;
+    margin: 0 auto 20px;
+    display: block;
+  }
+
+  .register-btn {
+    position: static;
+    margin: 20px auto;
+    display: block;
+    font-size: 20px;
+    padding: 10px 40px;
+  }
+
+  .hero h1 {
+    font-size: 2em;
+  }
+
+  .top-img-text {
+    text-align: center;
+    margin: 20px 0;
+  }
+
+  .features {
+    flex-direction: column;
+    gap: 20px;
+    height: auto;
+    padding: 20px;
+  }
+
+  .feature {
+    width: 80%;
+  }
+
+  .about {
+    flex-direction: column;
+    padding: 40px 20px;
+  }
+
+  .about-left,
+  .about-right {
+    max-width: 100%;
+    width: 100%;
+  }
+
+  .about-left img {
+    width: 100%;
+  }
+
+  .affiliate-btn {
+    padding: 15px 50px;
+    font-size: 16px;
+  }
+
+  .features-grid {
+    padding: 20px;
+    grid-template-columns: 1fr;
+  }
+
+  .icons-section {
+    padding: 20px;
+    gap: 30px;
+  }
+
+  .icon-box {
+    width: 80%;
+    height: auto;
+    padding: 20px;
+  }
+
+  .work h1 {
+    font-size: 2.5em;
+  }
+
+  .work p {
+    font-size: 16px;
+    padding: 0 10px;
+  }
+
+  .work-box {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .work-card {
+    width: 90%;
+    height: auto;
+    padding: 20px;
+  }
+}
+
+/* Tablets (769px - 1024px) */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .features {
+    gap: 5vw;
+    height: auto;
+    flex-wrap: wrap;
+  }
+
+  .feature {
+    width: 40%;
+  }
+
+  .about-left img {
+    width: 100%;
+  }
+
+  .features-grid {
+    padding: 30px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  }
+
+  .icon-box {
+    width: 40%;
+    height: auto;
+  }
+
+  .work-card {
+    width: 40%;
+    height: auto;
+  }
+}
